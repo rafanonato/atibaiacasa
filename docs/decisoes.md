@@ -4,6 +4,13 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ---
 
+## 2026-11-07: Primeira publicação pelo Windsor (Reel da piscina)
+
+- **Decisão (Rafael):** publicar agora as peças que ele indicar, uma de cada vez, já que o Windsor não agenda. A primeira é o Reel de amanhã, 07/11, "Piscina com vista".
+- **Execução:** `create_video_post` no Windsor, conta 17841452302392546. Media id `17988262869083564`.
+- **Mídia:** o MP4 foi copiado para `producao/publicacao/2026-11-07_reel-01-piscina.mp4`, porque o Windsor precisa de URL pública. O arquivo está no repositório, que é público.
+- **Pendências:** confirmar a licença da trilha (Pixabay, pelo nome dos arquivos). Confirmar a disponibilidade de 8 a 10/1.
+
 ## 2026-11-06: Nova direção: alcance e engajamento a partir de 07/11/2026
 
 - **Decisão (Rafael):** o foco é alcance e engajamento agora, para trazer hóspedes para as datas livres de janeiro a março de 2027. Não é o calendário de janeiro a março que se publica.
