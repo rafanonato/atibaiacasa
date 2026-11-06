@@ -4,6 +4,16 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ---
 
+## 2026-11-06: Peças do primeiro mês produzidas e validadas (aguarda aprovação)
+
+- **Decisão (Rafael):** planejamento das semanas 1 a 4 aprovado. Produzir as peças e deixá-las prontas para publicação nas datas planejadas.
+- **Produção:** 5 Reels em HyperFrames (1080×1920), 3 carrosséis e 1 story em Pillow (1080×1350 e 1080×1920). Tudo gerado a partir de `producao/scripts/pecas.py`.
+- **Skill de vídeo:** HyperFrames instalado (`hyperframes`, `hyperframes-cli`, `hyperframes-registry`, `media-use`) em `.agents/skills/`, com link em `.claude/skills/`. FFmpeg 9.0.2 instalado via Homebrew.
+- **Mudança de texto:** CTA dos Reels "Reserve pelo link na bio" virou "Veja as datas no Airbnb", porque a bio ainda aponta para a Keepo. **A aprovar.**
+- **Bloqueio:** carrossel do Carnaval (27/1) só após confirmar disponibilidade de 5 a 9/2 no Airbnb.
+- **Pendências:** trilha sonora dos Reels, hashtags, método de publicação (manual ou Windsor com URL pública), adesivo de enquete no story de 13/1, horário (19h é hipótese), confirmação do campo de futebol e do estacionamento nas fotos.
+- **Detalhes:** `docs/validacao-pecas-primeiro-mes.md` e `docs/calendario-2027-t1.md`.
+
 ## 2026-11-06: Fotos do anúncio versionadas e planejamento dos primeiros posts (proposta)
 
 - **Decisão:** as 61 fotos do anúncio ficam em `docs/Fotos do anúncio Airbnb/` no repositório privado. O planejamento dos primeiros posts e Reels está em `docs/planejamento-primeiros-posts-e-reels.md`.

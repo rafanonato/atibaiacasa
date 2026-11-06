@@ -2,3 +2,11 @@
 .env.*
 !.env.example
 .DS_Store
+
+# Produção de peças
+producao/.venv/
+producao/reels/*/node_modules/
+producao/reels/*/renders/
+producao/reels/*/.hyperframes/
+producao/scripts/vendor/Arial-Bold.ttf
+producao/reels/*/assets/fonts/

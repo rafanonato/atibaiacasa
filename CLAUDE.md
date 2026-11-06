@@ -13,6 +13,15 @@ Gestão integrada do Instagram da @atibaiacasa (Casa Atibaia): captação de con
 - Commits: mensagem em português, com a linha `Co-Authored-By` do Claude.
 - Publicação e leitura da conta: via conector Windsor (`instagram`, e `facebook` para Meta Ads quando conectado).
 
+## Produção de peças
+
+- Fonte única: `producao/scripts/pecas.py` (textos, legendas, fotos, datas). Altere só ali e rode os scripts.
+- Scripts em `producao/scripts/`: `build_graficos.py` (imagens), `build_reels.py` (projetos HyperFrames), `gerar_calendario.py` (calendário), `validar.py` (checagem). Use `producao/.venv/bin/python`.
+- Renders MP4 e `.hyperframes/` não vão para o Git. Regenere com `npx hyperframes@0.9.19 render` dentro de cada `producao/reels/<id>`.
+- Fotos originais: `docs/Fotos do anúncio Airbnb/`. Peças derivadas ficam em `producao/`.
+- Validação e pendências do primeiro mês: `docs/validacao-pecas-primeiro-mes.md`.
+- Skills de vídeo (HyperFrames) instaladas em `.agents/skills/` e linkadas em `.claude/skills/`.
+
 ## Estado atual
 
 Ver `docs/atibaiacasa.md` e `docs/decisoes.md`.
