@@ -4,6 +4,13 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ---
 
+## 2026-11-06: Estratégia de janeiro a março de 2027 (proposta, aguarda aprovação)
+
+- **Situação:** plano em `docs/estrategia-jan-mar-2027.md`. Não executado.
+- **Proposta:** retomar o Instagram com Reels (2 por semana, mais carrossel e stories), usar as avaliações e as fotos do Airbnb, e fazer um teste pago pequeno para São Paulo capital e Grande SP.
+- **Ferramenta de vídeo proposta:** HyperFrames (Apache 2.0, local, gratuito), instalando só as skills básicas. Alternativas avaliadas no mesmo documento.
+- **Pré-requisitos:** capacidade oficial, taxa de pessoa extra, regras de fumo e alarmes, ocupação atual do Airbnb e hospedagem pública para as mídias.
+
 ## Pendências após revisão de 05/11/2026
 
 - **Capacidade (a confirmar):** Rafael indicou considerar 5 suítes e até 20 pessoas. O cadastro estruturado do Airbnb ainda diz 4 quartos e 16 camas. Mudar o cadastro exige aprovação separada (`docs/01 - ...`, seção 5). A Keepo ainda diz 16 hóspedes e 4 suítes, e precisa ser atualizada junto.
