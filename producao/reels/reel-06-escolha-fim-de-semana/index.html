@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <title>Escolha seu fim de semana</title>
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      @font-face {
+        font-family: "ArialBold";
+        src: url("assets/fonts/Arial-Bold.ttf") format("truetype");
+        font-weight: 700;
+      }
+      :root {
+        --ink: #ffffff;
+        --ground: #000000;
+        --font-display: "ArialBold", Arial, sans-serif;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: var(--ground);
+      }
+      #root {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        font-family: var(--font-display);
+        color: var(--ink);
+      }
+      .cena {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+      }
+      .fundo {
+        position: absolute;
+        inset: 0;
+        width: 1080px;
+        height: 1920px;
+        object-fit: cover;
+      }
+      .quadro {
+        position: absolute;
+        left: 0;
+        top: 440px;
+        width: 1080px;
+        height: 1040px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      .frente {
+        width: 1080px;
+        height: auto;
+        max-height: 1040px;
+        object-fit: contain;
+        transform-origin: center center;
+      }
+      .texto {
+        position: absolute;
+        left: 80px;
+        right: 80px;
+        top: 230px;
+        text-align: center;
+        font-size: 84px;
+        line-height: 1.15;
+        font-weight: 700;
+        text-shadow: 0 4px 18px rgba(0, 0, 0, 0.55);
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="12.00"
+      data-width="1080"
+      data-height="1920"
+    >
+      <div id="cena-01" class="clip cena" data-start="0.00" data-duration="3.00" data-track-index="0">
+        <img class="fundo" src="assets/foto-29-fundo.jpg" alt="" />
+        <div class="quadro"><img class="frente" data-layout-allow-overflow src="assets/foto-29-frente.jpg" alt="" /></div>
+        <p class="texto">Confira as datas livres de janeiro</p>
+      </div>
+      <div id="cena-02" class="clip cena" data-start="3.00" data-duration="3.00" data-track-index="0">
+        <img class="fundo" src="assets/foto-44-fundo.jpg" alt="" />
+        <div class="quadro"><img class="frente" data-layout-allow-overflow src="assets/foto-44-frente.jpg" alt="" /></div>
+        <p class="texto">Terça a quinta, entrada flexível</p>
+      </div>
+      <div id="cena-03" class="clip cena" data-start="6.00" data-duration="3.00" data-track-index="0">
+        <img class="fundo" src="assets/foto-31-fundo.jpg" alt="" />
+        <div class="quadro"><img class="frente" data-layout-allow-overflow src="assets/foto-31-frente.jpg" alt="" /></div>
+        <p class="texto">Março tem emenda da Páscoa</p>
+      </div>
+      <div id="cena-04" class="clip cena" data-start="9.00" data-duration="3.00" data-track-index="0">
+        <img class="fundo" src="assets/foto-61-fundo.jpg" alt="" />
+        <div class="quadro"><img class="frente" data-layout-allow-overflow src="assets/foto-61-frente.jpg" alt="" /></div>
+        <p class="texto">Veja as datas no Airbnb</p>
+      </div>
+      <audio id="trilha" data-start="0" data-duration="12.00" src="assets/trilha.mp3"></audio>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#cena-01 .frente", { scale: 1.0 }, { scale: 1.06, duration: 3.00, ease: "none" }, 0.00);
+      tl.fromTo("#cena-01 .texto", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 0.00);
+      tl.fromTo("#cena-02 .frente", { scale: 1.0 }, { scale: 1.06, duration: 3.00, ease: "none" }, 3.00);
+      tl.fromTo("#cena-02 .texto", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 3.00);
+      tl.fromTo("#cena-03 .frente", { scale: 1.0 }, { scale: 1.06, duration: 3.00, ease: "none" }, 6.00);
+      tl.fromTo("#cena-03 .texto", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 6.00);
+      tl.fromTo("#cena-04 .frente", { scale: 1.0 }, { scale: 1.06, duration: 3.00, ease: "none" }, 9.00);
+      tl.fromTo("#cena-04 .texto", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, 9.00);
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

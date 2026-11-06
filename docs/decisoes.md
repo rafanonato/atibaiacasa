@@ -4,6 +4,14 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ---
 
+## 2026-11-06: Nova direção: alcance e engajamento a partir de 07/11/2026
+
+- **Decisão (Rafael):** o foco é alcance e engajamento agora, para trazer hóspedes para as datas livres de janeiro a março de 2027. Não é o calendário de janeiro a março que se publica.
+- **Reservas:** Carnaval (5 a 9/2) e o fim de semana da virada estão reservados, então não são promovidos. A planilha também mostra reserva de 8 a 10/1, que precisa de confirmação.
+- **Peças refeitas:** 13 peças de 07/11 a 04/12, com perguntas e enquetes para gerar comentários, FAQ para reduzir dúvidas e um carrossel de diárias de 2027. Fonte: `producao/scripts/pecas.py`.
+- **Pendente de aprovação:** publicar diárias de 2027 no Instagram (carrossel de 25/11).
+- **Publicação:** nada foi publicado. O Windsor publica na hora e não agenda; é preciso escolher o método antes.
+
 ## 2026-11-06: Publicação via Windsor pedida para 07/11/2026 (pendente de decisão)
 
 - **Pedido (Rafael):** executar o planejamento no Windsor a partir de 07/11/2026, em vez de 4/1/2027.

@@ -31,7 +31,7 @@ VOCAB_IA = [
     "crucial", "vibrante", "transformador", "jornada", "revolucionar", "essencial",
     "destacar-se", "navegar", "ecossistema", "sinergia",
 ]
-CTA = re.compile(r"(reserv|datas|veja|confira|escolha|salve|quer ver|chegou)", re.IGNORECASE)
+CTA = re.compile(r"(reserv|datas|veja|confira|escolha|salve|quer ver|chegou|comente|marque|pergunte|conte)", re.IGNORECASE)
 EMOJI = re.compile(r"[\U0001F300-\U0001FAFF☀-➿]")
 
 
