@@ -10,17 +10,41 @@ Documento de referência. Atualizado em 2026-11-06.
 - WhatsApp público (página da Keepo): +55 11 98159-8999
 - ID da conta no Windsor: `17841452302392546`
 
-## A casa (segundo a página da Keepo)
+## Canais de reserva
 
-- Casa de lazer "moderna e de alto padrão" para família e amigos
-- Até 16 hóspedes, 4 suítes (uma no térreo)
-- Cozinha, sala e área gourmet com churrasqueira e forno
-- Piscina privativa com aquecimento elétrico (trocador de calor)
-- Campo de futebol, Smart TV, Wi-Fi de 200 Mbps, estacionamento para 7 carros
-- Pets: 1 sem custo, sujeito a consulta; 2 ou mais, com taxa extra
-- Roupa de cama e toalhas não são fornecidas
+### Airbnb (ativo, o mais forte em prova social)
 
-Não encontrado ainda: endereço ou bairro, preço, check-in/check-out, política de cancelamento, avaliações.
+- Anúncio: "Casa 5 suítes, piscina e campo @atibaiacasa"
+- Link: https://www.airbnb.com.br/rooms/1131161848484082328
+- Anfitrião: Rafael (3 anos hospedando), co-anfitrião Flávio. Taxa de resposta de 80%, costuma responder em poucas horas.
+- Nota 4,75 com 40 avaliações (85% são 5 estrelas).
+- Notas por categoria: limpeza 4,6, precisão 4,8, check-in 4,8, comunicação 4,8, localização 4,7, custo-benefício 4,7.
+- Temas mais citados nas avaliações: hospitalidade (19), espaço interno (16), precisão (14), conforto (12), família (9), piscina (6), limpeza (6).
+- Localização: bairro Jardim Brasil, Atibaia (endereço exato só após a reserva).
+- Check-in a partir das 12h, check-out até as 18h.
+- Regras: festas e eventos familiares permitidos com acordo prévio e taxa extra. Música ao vivo ou DJ só até as 18h, por ser zona residencial.
+- Pet: um sem custo, taxa a partir do segundo.
+- Roupa de cama e banho não inclusas.
+- Não aparecem: preço por diária, taxas, política de cancelamento, Superhost.
+
+### Keepo (`atibaia.keepo.bio`, link da bio)
+
+- Página de link-in-bio com botão "Reserve aqui". Não mostra preço, check-in nem política de cancelamento.
+- Não tem avaliações.
+
+## A casa: dados que divergem entre os canais
+
+| Item | Keepo | Airbnb |
+|---|---|---|
+| Capacidade | até 16 hóspedes | até 20 (com 2 sofás-cama) |
+| Quartos/suítes | 4 suítes | 4 listados, mas o título diz 5 suítes |
+| Banheiros | não informado | 4 |
+| Wi-Fi | 200 Mbps | 600 Mbps |
+| Ar-condicionado | não citado | não disponível |
+
+Antes de anunciar, precisa decidir qual número vale e atualizar os dois canais.
+
+Itens em comum (Keepo e Airbnb): piscina privativa com aquecimento elétrico, campo de futebol, área gourmet com churrasqueira e forno, Smart TV, estacionamento para 7 carros, pets com regra de taxa.
 
 ## Instagram: estado em 2026-11-06
 
@@ -31,23 +55,22 @@ Não encontrado ainda: endereço ou bairro, preço, check-in/check-out, polític
 - Duas legendas repetidas (28/02/2022 e 29/03/2022). Três Reels sem legenda.
 - Melhor compartilhamento: Reels de 17/06/2024 (9), com CTA "Reserve agora mesmo, link na BIO".
 - Tom das legendas: acolhedor e familiar, com hashtags como #vempraatibaia, #housegarden, #renovandoasenergias, #viagememfamilia.
+- Oportunidade: as 40 avaliações do Airbnb são prova social que o Instagram não usa hoje.
 
 ## Atenção ao nome
 
 - Existe um projeto de arquitetura "Casa Atibaia" (ni.acki, Charlotte Taylor e Nicholas Préaud), sem relação com a casa. Pode confundir buscas e hashtags.
-- Um anúncio "Casa Atibaia - Arquitectura contemporánea" no Airbnb (nota 4,88, 152 avaliações) pode ser a própria casa. Não confirmado.
 
-## Pendências para avaliar reservas
+## Pendências
 
-1. Preço e disponibilidade
-2. Avaliações de hóspedes (Airbnb, Booking, Google)
-3. Endereço ou bairro (para anúncios locais)
-4. Canais de reserva usados hoje (Keepo, WhatsApp, Airbnb, outros)
+1. Preço por diária e disponibilidade (não aparecem nos canais públicos)
+2. Capacidade oficial: 16 ou 20 hóspedes, 4 ou 5 suítes
+3. Política de cancelamento
+4. Qual canal gera mais reservas hoje (Airbnb, Keepo, WhatsApp ou outro)
 5. Histórico de seguidores e alcance (pode ser puxado do Windsor com intervalo de datas)
 
 ## Fontes
 
+- [Airbnb: Casa 5 suítes, piscina e campo](https://www.airbnb.com.br/rooms/1131161848484082328)
 - [atibaia.keepo.bio](https://atibaia.keepo.bio/)
-- [Openhouse Magazine: Casa Atibaia](https://openhouse-magazine.com/casa-atibaia/)
-- [Archello: Casa Atibaia](https://archello.com/project/casa-atibaia)
-- [Airbnb: Casa Atibaia, arquitetura contemporânea](https://es.airbnb.com/rooms/15535876)
+- [Openhouse Magazine: Casa Atibaia (projeto de arquitetura, outro imóvel)](https://openhouse-magazine.com/casa-atibaia/)
