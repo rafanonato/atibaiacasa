@@ -18,14 +18,16 @@ import html
 import json
 import os
 import shutil
+import subprocess
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from pecas import PECAS  # noqa: E402
+from pecas import PECAS, TRILHAS  # noqa: E402
 
 RAIZ = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 PRODUCAO = os.path.join(RAIZ, "producao")
 VENDOR = os.path.join(PRODUCAO, "scripts", "vendor")
+SONS = os.path.join(RAIZ, "docs", "sons")
 # Arial não é redistribuída no repositório: a cópia vem do macOS.
 FONTE_SISTEMA = "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
 
@@ -66,6 +68,9 @@ def gerar_animacao(cenas):
 def html_reel(peca):
     cenas_html, duracao = gerar_cenas(peca["cenas"])
     animacao = gerar_animacao(peca["cenas"])
+    audio = ""
+    if peca["id"] in TRILHAS:
+        audio = f'<audio id="trilha" data-start="0" data-duration="{duracao:.2f}" src="assets/trilha.mp3"></audio>'
     return f"""<!doctype html>
 <html lang="pt-BR">
   <head>
@@ -150,6 +155,7 @@ def html_reel(peca):
       data-width="1080"
       data-height="1920"
     >{cenas_html}
+      {audio}
     </div>
     <script>
       const tl = gsap.timeline({{ paused: true }});
@@ -160,6 +166,22 @@ def html_reel(peca):
   </body>
 </html>
 """
+
+
+def preparar_trilha(peca, duracao, pasta):
+    """Corta o trecho da trilha da peça, com volume baixo e fade de saída (1,5 s)."""
+    if peca["id"] not in TRILHAS:
+        return False
+    arquivo, inicio = TRILHAS[peca["id"]]
+    origem = os.path.join(SONS, arquivo)
+    destino = os.path.join(pasta, "assets", "trilha.mp3")
+    filtro = f"volume=0.6,afade=t=out:st={duracao - 1.5:.2f}:d=1.5"
+    subprocess.run(
+        ["ffmpeg", "-loglevel", "error", "-y", "-ss", str(inicio), "-i", origem,
+         "-t", f"{duracao:.2f}", "-af", filtro, "-c:a", "libmp3lame", "-b:a", "192k", destino],
+        check=True,
+    )
+    return True
 
 
 def montar(peca):
@@ -173,7 +195,8 @@ def montar(peca):
     with open(os.path.join(pasta, "index.html"), "w", encoding="utf-8") as f:
         f.write(html_reel(peca))
     _, duracao = gerar_cenas(peca["cenas"])
-    print(f"{peca['id']}: {len(peca['cenas'])} cenas, {duracao:.1f} s")
+    com_trilha = preparar_trilha(peca, duracao, pasta)
+    print(f"{peca['id']}: {len(peca['cenas'])} cenas, {duracao:.1f} s, trilha: {'sim' if com_trilha else 'não'}")
 
 
 def main():

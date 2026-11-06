@@ -72,6 +72,15 @@ def dimensao(caminho):
         return im.size
 
 
+def tem_audio(caminho):
+    saida = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries", "stream=codec_name",
+         "-of", "csv=p=0", caminho],
+        capture_output=True, text=True, check=True,
+    )
+    return bool(saida.stdout.strip())
+
+
 def video_info(caminho):
     saida = subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries", "stream=width,height,r_frame_rate",
@@ -121,8 +130,11 @@ def verificar_peca(peca):
             if abs(duracao - esperado) > 0.3:
                 erros.append(f"duração {duracao:.1f}s, esperado {esperado:.1f}s")
             arquivo = os.path.relpath(video, RAIZ)
-            detalhe = f"1080x1920, {duracao:.1f} s, sem som"
-            avisos.append("sem trilha sonora (aguarda decisão de música)")
+            if tem_audio(video):
+                detalhe = f"1080x1920, {duracao:.1f} s, com trilha"
+            else:
+                detalhe = f"1080x1920, {duracao:.1f} s, sem som"
+                avisos.append("sem trilha sonora")
     resultado = {"id": peca["id"], "data": peca["data"], "dia": dias_semana(peca["data"]),
                  "tipo": peca["tipo"], "arquivo": arquivo, "detalhe": detalhe,
                  "erros": erros, "avisos": avisos}

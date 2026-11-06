@@ -4,6 +4,26 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ---
 
+## 2026-11-06: Publicação via Windsor pedida para 07/11/2026 (pendente de decisão)
+
+- **Pedido (Rafael):** executar o planejamento no Windsor a partir de 07/11/2026, em vez de 4/1/2027.
+- **Impedimento 1:** o Windsor publica na hora. As ações de Instagram não têm campo de agendamento. Executar tudo de uma vez publicaria as 9 peças juntas.
+- **Impedimento 2:** o Windsor exige URL pública para cada imagem ou vídeo. O repositório agora é público, então é possível, mas expõe os arquivos, e alguns documentos da pasta `docs/` ainda têm nomes de hóspedes (ver abaixo).
+- **Impedimento 3:** o calendário é de janeiro a março de 2027, com temas de Carnaval, Ano Novo e "janeiro ou fevereiro". Começando em novembro, esses temas não batem com a data.
+- **Opções:** (a) agendar pelo Meta Business Suite, que tem agendamento nativo; (b) publicar manualmente no dia; (c) refazer as semanas 1 e 2 para novembro e dezembro e publicar via Windsor, uma por vez, com confirmação.
+- **Status:** nada foi publicado. Aguardando escolha.
+
+## 2026-11-06: Aprovações do primeiro mês
+
+- **CTA dos Reels:** "Veja as datas no Airbnb" (aprovado).
+- **Hashtags:** #atibaia #viagememfamilia #lazeremfamilia, nas legendas de Reels e carrosséis (aprovado).
+- **Legenda do Reel 1:** "A casa tem área de lazer, com campo e espaço para toda a família." (aprovado).
+- **Horário:** 19h como hipótese (aprovado).
+- **Story de 13/1:** sem adesivo de enquete (aprovado).
+- **Fotos:** não há pessoas nas fotos, segundo Rafael.
+- **Trilha:** as 3 faixas de `docs/sons/` foram cortadas e colocadas nos Reels, com fade de saída. Os nomes indicam Pixabay (licença gratuita). Confirmar a licença antes de publicar. Os arquivos ficaram fora do Git.
+- **Pendente:** o campo de futebol não foi confirmado; o Reel 4 usa "Gramado amplo".
+
 ## 2026-11-06: Peças do primeiro mês produzidas e validadas (aguarda aprovação)
 
 - **Decisão (Rafael):** planejamento das semanas 1 a 4 aprovado. Produzir as peças e deixá-las prontas para publicação nas datas planejadas.
@@ -40,9 +60,9 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 - **Situação:** a configuração ainda está em R$ 0 após 15 hóspedes. Precisa ser ajustada no Airbnb para bater com o texto.
 - **Motivo:** o texto do anúncio e a configuração de taxa não podem divergir.
 
-## 2026-11-05: Consulta de grupo grande (Maria Carolina, 11 a 13/12/2026)
+## 2026-11-05: Consulta de grupo grande (dezembro de 2026)
 
-- **Situação:** pedido de cerca de 30 pessoas. Rafael já respondeu à cliente. Resposta não registrada aqui.
+- **Situação:** pedido de cerca de 30 pessoas para o período de 11 a 13/12/2026. Rafael já respondeu. Resposta não registrada aqui.
 - **Por que registrar:** a resposta define um precedente de grupo grande para as próximas consultas. Vale anotar o valor combinado quando souber.
 
 ## 2026-11-05: Taxa efetiva do Airbnb verificada
@@ -52,7 +72,7 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ## 2026-11-05: Calendário 2027 e taxa extra aplicados no Airbnb
 
-- **Decisão (aprovada por Rafael):** não bloquear datas, só configurar preço e mínimo de noites. Reservas existentes em 2027 ficam intactas (Samanta 5 a 9/02, Letícia, Marcos).
+- **Decisão (aprovada por Rafael):** não bloquear datas, só configurar preço e mínimo de noites. Reservas existentes em 2027 ficam intactas (inclui a reserva de Carnaval, 5 a 9/02, e outras já confirmadas).
 - **Emendas de feriado 2027:** R$ 1.400 por noite, mínimo 3 noites. Carnaval, Sexta Santa, Corpus Christi, Aniversário de Atibaia, Revolução, Independência, Aparecida, Finados e República.
 - **Fora das emendas:** sexta e sábado R$ 1.250 (jan a jun e ago a nov), R$ 1.350 em julho e de 1/12 até o Natal. Demais noites R$ 1.100, ou R$ 1.150 em julho e R$ 1.250 em dezembro. Mínimo de 2 noites.
 - **Natal (23 a 25/12) e Ano Novo (28/12 a 2/1/2028):** R$ 2.000 por noite, mínimo 3. 26 e 27/12: R$ 1.250.

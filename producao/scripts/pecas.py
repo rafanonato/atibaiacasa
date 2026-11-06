@@ -12,6 +12,19 @@ ARQUIVO_FOTOS = "docs/Fotos do anúncio Airbnb"
 
 HANDLE = "@atibaiacasa"
 
+# Hashtags aprovadas em 06/11/2026 para Reels e carrosséis (sem story).
+HASHTAGS = "#atibaia #viagememfamilia #lazeremfamilia"
+
+# Trilhas em docs/sons/ (fornecidas pelo dono). Cada Reel recebe um trecho com
+# fade de saída. Os nomes indicam a fonte Pixabay; confirmar a licença antes de publicar.
+TRILHAS = {
+    "reel-01-piscina": ("grand_project-toward-the-dream-uplifting-orchestral-adventure-full-2m52s-628698.mp3", 0),
+    "reel-02-avaliacoes": ("brotheration_records-everyday-is-a-holiday-queens-of-ocean-11-brotheration-records-325618.mp3", 0),
+    "reel-03-terca-quinta": ("brotheration_records-everyday-is-a-holiday-queens-of-ocean-11-brotheration-records-325618.mp3", 15),
+    "reel-04-chegando": ("grand_project-toward-the-dream-uplifting-orchestral-adventure-full-2m52s-628698.mp3", 20),
+    "reel-05-cozinha": ("brotheration_records-everyday-is-a-holiday-queens-of-ocean-11-brotheration-records-325618.mp3", 30),
+}
+
 # Cada peça: data, tipo, fotos, texto de cada cena/slide, legenda.
 # Para reels, "cenas" = lista de (foto, texto_na_tela, segundos).
 # Para carrosséis, "slides" = lista de (foto, título). O primeiro slide é a capa.
@@ -31,7 +44,7 @@ PECAS = [
         ],
         "legenda": (
             "Piscina aquecida em Atibaia, sem pagar a mais pelo aquecimento. "
-            "Fica ligada quando você pedir. Casa na área de lazer, com campo e espaço "
+            "Fica ligada quando você pedir. A casa tem área de lazer, com campo e espaço "
             "para toda a família. Qual fim de semana você escolhe? " + HANDLE
         ),
     },
@@ -168,6 +181,11 @@ PECAS = [
         ),
     },
 ]
+
+# Hashtags entram no fim das legendas de Reels e carrosséis.
+for _peca in PECAS:
+    if "legenda" in _peca:
+        _peca["legenda"] = f"{_peca['legenda']}\n\n{HASHTAGS}"
 
 # Semanas 5 a 13: só tema, a produzir depois do primeiro mês.
 # (semana, início, tema, pilar)

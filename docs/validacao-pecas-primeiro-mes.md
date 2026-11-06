@@ -65,27 +65,33 @@ Checagem do HyperFrames: `check` sem erros em todos os Reels. Os avisos são de 
 3. **Reel 1:** "1,5 m" quebrava a linha antes do "m". Agora usa espaço inseparável.
 4. **Reel 1:** o slide "Vista de cima" usava a foto 56. Passou a usar a 46, que é a vista aérea.
 5. **Reel 5:** "Fogão, forno e geladeira" virou "Fogão e geladeira", porque não consegui confirmar o forno na foto 39.
-6. **CTA "Reserve pelo link na bio":** trocado por "Veja as datas no Airbnb", porque a bio ainda aponta para a Keepo. **Mudança a aprovar.**
+6. **CTA "Reserve pelo link na bio":** trocado por "Veja as datas no Airbnb", porque a bio ainda aponta para a Keepo. Aprovado.
+7. **Legenda do Reel 1:** "A casa tem área de lazer, com campo e espaço para toda a família." Aprovado.
+8. **Trilha e hashtags** aplicadas nos Reels e legendas. Validação atualizada: todos os Reels com áudio.
 
 ## Pontos a confirmar com você
 
-- **Campo de futebol:** não consegui identificar a foto do campo com segurança. O Reel 4 usa "Gramado amplo" no lugar.
+- **Campo de futebol:** não consegui identificar a foto do campo com segurança. O Reel 4 usa "Gramado amplo" no lugar. Pendente.
 - **Estacionamento para 7 carros:** o Reel 4 usa a foto 20 (entrada com pavimento). Não tenho certeza de que mostra as vagas.
-- **Pessoas nas fotos:** não identifiquei nenhuma pela miniatura. Confirme antes de publicar.
+- **Pessoas nas fotos:** Rafael confirmou que não há pessoas nas fotos.
 - **Quartos em suíte:** o slide 7 do primeiro carrossel usa a foto 07 (quarto). A palavra "suíte" vem da listagem, não da foto.
-- **Frase da legenda do Reel 1:** "Casa na área de lazer, com campo e espaço para toda a família" soa estranha. Sugestão: "A casa tem área de lazer, com campo e espaço para toda a família." Não alterei, porque a legenda já foi aprovada.
+
 
 ## Pendências antes de publicar
 
-1. **Trilha sonora dos Reels.** Nenhuma escolhida. Opções: música de biblioteca sem direitos autorais, música licenciada ou manter sem som. O Reel sem som tende a ter menos alcance. Precisa de decisão sua.
-2. **Hashtags.** Não consegui dimensioná-las, porque o Apify (que daria os volumes) ficou fora do projeto. Proposta, para aprovação: #atibaia, #viagememfamilia, #lazeremfamilia. Não estão nas legendas.
+1. **Trilha sonora.** Aplicada: as 3 faixas de `docs/sons/` foram cortadas e colocadas nos Reels. Confirmar a licença (os nomes indicam Pixabay).
+2. **Hashtags.** Aprovadas e incluídas: #atibaia #viagememfamilia #lazeremfamilia. Não foi possível dimensionar o volume de cada uma (sem Apify).
 3. **Método de publicação.** Opções:
    - **Manual** pelo app, com os arquivos prontos. É o caminho mais simples para começar.
    - **Via Windsor.** Exige URL pública para cada imagem ou vídeo (carrossel: de 2 a 10 imagens; Reel: MP4; story: imagem). O repositório é privado, então não serve para hospedar. Precisa de um repositório público separado só com as peças prontas, ou de outro serviço de hospedagem.
-4. **Adesivo de enquete no story de 13/1.** Precisa ser adicionado no app. A ferramenta não cria adesivo.
+4. **Adesivo de enquete no story de 13/1.** Não será adicionado (aprovado sem adesivo).
 5. **Horário.** 19h é hipótese. Sem dado de pico, o horário pode ficar fora do momento em que o público está ativo.
 6. **Bio do Instagram** apontando para o Airbnb. Sem isso, o CTA "link na bio" não existe, e os textos já estão adaptados para não depender dele.
 7. **Confirmar disponibilidade do Carnaval** no Airbnb antes do carrossel de 27/1.
+
+## Publicação: pedido de começar em 07/11/2026
+
+Pedido: executar o planejamento no Windsor a partir de amanhã. Não foi executado ainda, por três motivos (ver `docs/decisoes.md`): o Windsor publica na hora e não agenda; as mídias precisariam de URL pública; e o calendário é de janeiro a março de 2027, com temas que não batem com novembro.
 
 ## Próximos passos sugeridos
 

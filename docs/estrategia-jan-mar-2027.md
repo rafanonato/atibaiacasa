@@ -17,7 +17,7 @@ Hipótese central: a conta do Instagram está parada desde junho de 2024 e tem 1
 | Instagram (Windsor) | 199 seguidores, 10 posts, último em 17/06/2024. Alcance de 155 a 375 por post. Reels têm 812 a 1.127 visualizações; fotos quase nenhuma. |
 | Público (Windsor) | 109 seguidores em São Paulo capital, 17 em Atibaia, 15 em Guarulhos, 6 em São Caetano do Sul e 6 em Santo André. Mulheres de 25 a 54 anos são a maior parte (cerca de 57% dos seguidores com faixa etária conhecida). |
 | Airbnb | Nota 4,75 com 40 avaliações. Temas mais citados: hospitalidade, espaço, precisão, conforto, família e piscina. |
-| Calendário 2027 | Preços e emendas aplicados. Carnaval (5 a 9/2) já tem a reserva da Samanta. Ano Novo (1/1) fica fora das alterações. |
+| Calendário 2027 | Preços e emendas aplicados. Carnaval (5 a 9/2) já tem uma reserva. Ano Novo (1/1) fica fora das alterações. |
 
 Lacuna importante: não tenho a ocupação atual de janeiro a março. Sem ela não dá para saber quais datas estão vazias e precisam de empurrão. Próximo passo: exportar o calendário do Airbnb para essas datas.
 
