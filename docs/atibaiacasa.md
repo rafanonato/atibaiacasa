@@ -14,8 +14,13 @@ Documento de referência. Atualizado em 2026-11-06.
 
 ### Airbnb (ativo, o mais forte em prova social)
 
-- Anúncio: "Casa 5 suítes, piscina e campo @atibaiacasa"
+- Anúncio: "Casa 5 suítes, piscina e campo @atibaiacasa" (título aplicado em 04/11/2026)
 - Link: https://www.airbnb.com.br/rooms/1131161848484082328
+- Preços 2027 aplicados em 05/11/2026 (detalhes em `docs/decisoes.md`):
+  - Diária de semana: R$ 1.100 (terça a quinta). Sexta e sábado: R$ 1.250.
+  - Julho: R$ 1.150 (semana) e R$ 1.350 (sexta e sábado). Dezembro até o Natal: R$ 1.250 e R$ 1.350.
+  - Emendas de feriado: R$ 1.400, mínimo 3 noites. Natal e Ano Novo: R$ 2.000, mínimo 3.
+  - Mínimo de 2 noites nas demais datas. Taxa por pessoa extra: R$ 0 após 15 hóspedes.
 - Anfitrião: Rafael (3 anos hospedando), co-anfitrião Flávio. Taxa de resposta de 80%, costuma responder em poucas horas.
 - Nota 4,75 com 40 avaliações (85% são 5 estrelas).
 - Notas por categoria: limpeza 4,6, precisão 4,8, check-in 4,8, comunicação 4,8, localização 4,7, custo-benefício 4,7.
@@ -43,6 +48,8 @@ Documento de referência. Atualizado em 2026-11-06.
 | Ar-condicionado | não citado | não disponível |
 
 Antes de anunciar, precisa decidir qual número vale e atualizar os dois canais.
+
+Atualização de 05/11/2026: o texto do Airbnb já foi aprovado com 5 suítes e 20 pessoas, mas o cadastro estruturado continua com 4 quartos e 16 camas. A Keepo ainda diz 16 hóspedes. Pendente de decisão e de atualizar os dois canais.
 
 Itens em comum (Keepo e Airbnb): piscina privativa com aquecimento elétrico, campo de futebol, área gourmet com churrasqueira e forno, Smart TV, estacionamento para 7 carros, pets com regra de taxa.
 

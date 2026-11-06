@@ -4,11 +4,31 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ---
 
-## Em aberto: capacidade oficial da casa
+## Em aberto: divergências entre texto do anúncio e cadastro
 
-- **Situação:** a Keepo diz 16 hóspedes e 4 suítes. O Airbnb diz até 20 hóspedes, com título de 5 suítes e 4 quartos listados.
-- **Por que importa:** anúncios e legendas não podem prometer números diferentes do que o hóspede encontra.
-- **Próximo passo:** você confirma o número real, e atualizamos os dois canais e `docs/atibaiacasa.md`.
+- **Capacidade:** o texto aprovado do Airbnb diz 5 suítes e 20 pessoas, mas o cadastro estruturado continua com 4 quartos e 16 camas. Mudar o cadastro exige aprovação separada (`docs/01 - ...`, seção 5). A Keepo ainda diz 16 hóspedes e 4 suítes.
+- **Taxa por pessoa extra:** a regra publicada diz "acima de 18 pessoas dormindo há taxa", mas a configuração foi para R$0 após 15 hóspedes (`docs/02 - ...`, seção 6). Uma das duas precisa mudar.
+- **Fumo e alarmes:** as regras do Airbnb mostram "Smoking allowed" e "No smoke alarm", e não há detector de fumaça ou de monóxido listado. Vale conferir antes de qualquer outra mudança.
+- **Consulta de grupo grande:** Maria Carolina pediu 11 a 13/12/2026 com cerca de 30 pessoas. Aguarda resposta; a regra de quantas pessoas aceitar ainda não está definida.
+- **Taxas do Airbnb e classificação da conta:** efetiva de cerca de 18,21% do subtotal, em verificação com o suporte. Nenhuma mudança sem nova aprovação.
+
+## 2026-11-05: Calendário 2027 e taxa extra aplicados no Airbnb
+
+- **Decisão (aprovada por Rafael):** não bloquear datas, só configurar preço e mínimo de noites. Reservas existentes em 2027 ficam intactas (Samanta 5 a 9/02, Letícia, Marcos).
+- **Emendas de feriado 2027:** R$ 1.400 por noite, mínimo 3 noites. Carnaval, Sexta Santa, Corpus Christi, Aniversário de Atibaia, Revolução, Independência, Aparecida, Finados e República.
+- **Fora das emendas:** sexta e sábado R$ 1.250 (jan a jun e ago a nov), R$ 1.350 em julho e de 1/12 até o Natal. Demais noites R$ 1.100, ou R$ 1.150 em julho e R$ 1.250 em dezembro. Mínimo de 2 noites.
+- **Natal (23 a 25/12) e Ano Novo (28/12 a 2/1/2028):** R$ 2.000 por noite, mínimo 3. 26 e 27/12: R$ 1.250.
+- **Virada 2026/27:** fica fora das alterações, por decisão de Rafael (05/11, 14:35).
+- **Entrada e saída:** flexibilizadas para terça e quinta. Sexta a domingo mantém mínimo de 2 noites.
+- **Taxa por pessoa extra:** R$ 0 após 15 hóspedes, por noite (antes R$ 100). Aplicada às 16:08 de 05/11.
+- **stays.net:** removida às 15:49 de 05/11.
+- **Motivo:** calendário e preços de 2027 para aumentar reservas com emendas e alta temporada.
+
+## 2026-11-04: Título e descrição do anúncio Airbnb atualizados
+
+- **Decisão (aprovada por Rafael):** título "Casa 5 suítes, piscina e campo @atibaiacasa" e descrição v5, com 5 suítes e até 20 pessoas para dormir. Fotos ficam com Rafael.
+- **Motivo:** o texto anterior falava em 4 suítes e 16 pessoas, e o novo título traz o handle do Instagram.
+- **Detalhes e texto anterior para reverter:** `docs/01 - Título e descrição do anúncio (aplicado 04-11-2026).md`.
 
 ## 2026-11-06: Airbnb identificado como canal de reserva ativo
 
