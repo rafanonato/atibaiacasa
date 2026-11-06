@@ -4,13 +4,26 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ---
 
-## Em aberto: divergências entre texto do anúncio e cadastro
+## Pendências após revisão de 05/11/2026
 
-- **Capacidade:** o texto aprovado do Airbnb diz 5 suítes e 20 pessoas, mas o cadastro estruturado continua com 4 quartos e 16 camas. Mudar o cadastro exige aprovação separada (`docs/01 - ...`, seção 5). A Keepo ainda diz 16 hóspedes e 4 suítes.
-- **Taxa por pessoa extra:** a regra publicada diz "acima de 18 pessoas dormindo há taxa", mas a configuração foi para R$0 após 15 hóspedes (`docs/02 - ...`, seção 6). Uma das duas precisa mudar.
-- **Fumo e alarmes:** as regras do Airbnb mostram "Smoking allowed" e "No smoke alarm", e não há detector de fumaça ou de monóxido listado. Vale conferir antes de qualquer outra mudança.
-- **Consulta de grupo grande:** Maria Carolina pediu 11 a 13/12/2026 com cerca de 30 pessoas. Aguarda resposta; a regra de quantas pessoas aceitar ainda não está definida.
-- **Taxas do Airbnb e classificação da conta:** efetiva de cerca de 18,21% do subtotal, em verificação com o suporte. Nenhuma mudança sem nova aprovação.
+- **Capacidade (a confirmar):** Rafael indicou considerar 5 suítes e até 20 pessoas. O cadastro estruturado do Airbnb ainda diz 4 quartos e 16 camas. Mudar o cadastro exige aprovação separada (`docs/01 - ...`, seção 5). A Keepo ainda diz 16 hóspedes e 4 suítes, e precisa ser atualizada junto.
+- **Fumo e alarmes (adiado por decisão de Rafael):** as regras mostram "Smoking allowed" e "No smoke alarm", e não há detector de fumaça ou de monóxido listado. Rafael decidiu não fazer esse ajuste agora. Fica registrado como risco de segurança do hóspede a ser resolvido.
+
+## 2026-11-05: Taxa por pessoa extra acima de 18 pessoas
+
+- **Decisão (Rafael):** a taxa adicional por pessoa passa a valer acima de 18 pessoas dormindo na casa, conforme o texto publicado.
+- **Situação:** a configuração ainda está em R$ 0 após 15 hóspedes. Precisa ser ajustada no Airbnb para bater com o texto.
+- **Motivo:** o texto do anúncio e a configuração de taxa não podem divergir.
+
+## 2026-11-05: Consulta de grupo grande (Maria Carolina, 11 a 13/12/2026)
+
+- **Situação:** pedido de cerca de 30 pessoas. Rafael já respondeu à cliente. Resposta não registrada aqui.
+- **Por que registrar:** a resposta define um precedente de grupo grande para as próximas consultas. Vale anotar o valor combinado quando souber.
+
+## 2026-11-05: Taxa efetiva do Airbnb verificada
+
+- **Situação:** taxa efetiva de cerca de 18,21% do subtotal das noites. Rafael confirmou que está correta, após verificação.
+- **Impacto:** nenhuma mudança de taxa ou classificação é necessária por enquanto.
 
 ## 2026-11-05: Calendário 2027 e taxa extra aplicados no Airbnb
 
@@ -20,7 +33,7 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 - **Natal (23 a 25/12) e Ano Novo (28/12 a 2/1/2028):** R$ 2.000 por noite, mínimo 3. 26 e 27/12: R$ 1.250.
 - **Virada 2026/27:** fica fora das alterações, por decisão de Rafael (05/11, 14:35).
 - **Entrada e saída:** flexibilizadas para terça e quinta. Sexta a domingo mantém mínimo de 2 noites.
-- **Taxa por pessoa extra:** R$ 0 após 15 hóspedes, por noite (antes R$ 100). Aplicada às 16:08 de 05/11.
+- **Taxa por pessoa extra:** R$ 0 após 15 hóspedes, por noite (antes R$ 100). Aplicada às 16:08 de 05/11. Substituída pela decisão de cobrar acima de 18 pessoas (acima).
 - **stays.net:** removida às 15:49 de 05/11.
 - **Motivo:** calendário e preços de 2027 para aumentar reservas com emendas e alta temporada.
 

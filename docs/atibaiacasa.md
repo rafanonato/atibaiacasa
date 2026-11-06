@@ -49,7 +49,7 @@ Documento de referência. Atualizado em 2026-11-06.
 
 Antes de anunciar, precisa decidir qual número vale e atualizar os dois canais.
 
-Atualização de 05/11/2026: o texto do Airbnb já foi aprovado com 5 suítes e 20 pessoas, mas o cadastro estruturado continua com 4 quartos e 16 camas. A Keepo ainda diz 16 hóspedes. Pendente de decisão e de atualizar os dois canais.
+Atualização de 05/11/2026: Rafael indicou considerar 5 suítes e até 20 pessoas. O cadastro estruturado do Airbnb ainda diz 4 quartos e 16 camas, e a Keepo ainda diz 16 hóspedes. Pendente: confirmar a mudança e atualizar os dois canais. A taxa por pessoa extra passa a valer acima de 18 pessoas.
 
 Itens em comum (Keepo e Airbnb): piscina privativa com aquecimento elétrico, campo de futebol, área gourmet com churrasqueira e forno, Smart TV, estacionamento para 7 carros, pets com regra de taxa.
 
