@@ -4,6 +4,14 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ---
 
+## 2026-11-06: Fotos do anúncio versionadas e planejamento dos primeiros posts (proposta)
+
+- **Decisão:** as 61 fotos do anúncio ficam em `docs/Fotos do anúncio Airbnb/` no repositório privado. O planejamento dos primeiros posts e Reels está em `docs/planejamento-primeiros-posts-e-reels.md`.
+- **Validação:** 61 JPEG válidos, 1200 px de largura, sem duplicadas e sem GPS no EXIF.
+- **Regra de formato:** fundo desfocado para Reels (9:16) e feed (4:5), para não perder resolução.
+- **Legendas:** sem números de quartos, camas ou pessoas até a capacidade ser confirmada.
+- **Publicação:** o Windsor precisa de URL pública. Ainda não resolvido. Proposta de publicação manual nas primeiras semanas.
+
 ## 2026-11-06: Estratégia de janeiro a março de 2027 (proposta, aguarda aprovação)
 
 - **Situação:** plano em `docs/estrategia-jan-mar-2027.md`. Não executado.
