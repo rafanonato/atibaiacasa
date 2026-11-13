@@ -4,6 +4,12 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ---
 
+## 2026-11-11: Carrossel "O que tem na casa" publicado pelo Windsor
+
+- **Decisão (Rafael):** publicar o carrossel de 11/11, indicado por ele.
+- **Execução:** `create_carousel_post` com 8 slides, conta 17841452302392546. Media id `18122041217069409`.
+- **Mídia:** slides copiados para `producao/publicacao/2026-11-11_carrossel-01-o-que-tem/`, para URL pública.
+
 ## 2026-11-07: Primeira publicação pelo Windsor (Reel da piscina)
 
 - **Decisão (Rafael):** publicar agora as peças que ele indicar, uma de cada vez, já que o Windsor não agenda. A primeira é o Reel de amanhã, 07/11, "Piscina com vista".
