@@ -4,6 +4,12 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ---
 
+## 2026-11-15: Reel "40 avaliações" publicado pelo Windsor
+
+- **Decisão (Rafael):** publicar o Reel de 40 avaliações.
+- **Execução:** `create_video_post`, conta 17841452302392546. Media id `18153341290559481`.
+- **Mídia:** MP4 em `producao/publicacao/2026-11-13_reel-02-avaliacoes.mp4`, para URL pública.
+
 ## 2026-11-11: Carrossel "O que tem na casa" publicado pelo Windsor
 
 - **Decisão (Rafael):** publicar o carrossel de 11/11, indicado por ele.
