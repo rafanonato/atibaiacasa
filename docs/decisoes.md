@@ -4,6 +4,13 @@ Cada decisão importante do projeto fica aqui, com data, motivo e o que muda por
 
 ---
 
+## 2026-11-19: Carrossel de perguntas frequentes e stories publicados pelo Windsor
+
+- **Decisão (Rafael):** publicar o carrossel de 18/11 e os stories de enquete. Ele pediu para publicar as imagens que existem, mesmo sem a enquete.
+- **Carrossel:** `create_carousel_post`, 7 slides, media id `18117731417026469`. Mídia em `producao/publicacao/2026-11-18_carrossel-04-perguntas-frequentes/`.
+- **Stories:** `create_story` com imagem, sem adesivo de enquete (o Windsor não cria enquetes). Media ids `18024503231937775` ("Janeiro ou fevereiro?") e `17980240689155396` ("Qual mês você quer vir?"). Mídia em `producao/publicacao/stories/`.
+- **Pendente:** adicionar o adesivo de enquete nos stories pelo app, se quiser que as pessoas votem. Os stories somem em 24 horas.
+
 ## 2026-11-16: Reel "Terça a quinta" publicado pelo Windsor
 
 - **Decisão (Rafael):** publicar o Reel de hoje.
